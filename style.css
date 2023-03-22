@@ -1,0 +1,219 @@
+
+
+
+body {
+background: rgb(245, 182, 17);
+    background: linear-gradient(0deg, rgba(245, 182, 17, 1) 4%, rgba(252, 248, 149, 1) 47%, rgba(255, 254, 246, 1) 100%);
+}
+
+.align_item_right {
+    justify-content: end;
+}
+
+.yellow_color_accent {
+    color: #ffc515ff;
+}
+
+.hover_black:hover {
+    color: black;
+}
+
+section {
+    height: 400px;
+        text-align: center;
+        margin-top: 28vh;
+        
+}
+
+.hero_button {
+    font-size: 2rem;
+    margin-top: 30px;
+}
+
+.hero_h1 {
+    font-size: 2rem;
+}
+
+.span_text{
+    font-size: 1.5rem;
+    margin-top: 2vh;
+    margin-left: 1vh;
+margin-right: 1vh;
+}
+
+
+
+.my_card>img {
+    height: 40vh;
+    border-radius: 10px;
+}
+
+.my_card {
+    border-radius: 10px;
+}
+
+
+
+.card1 {
+    background-image: url('assets/individual.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 30vh;
+    width: 30vh;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.164);
+    border-radius: 10px;
+    border-radius: 20px;
+}
+
+.card2 {
+    background-image: url('assets/couple.jpg');
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    height: 30vh;
+    width: 30vh;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.164);
+    border-radius: 20px;
+}
+
+.card3 {
+    background-image: url('assets/teen.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 30vh;
+    width: 30vh;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.164);
+    border-radius: 20px;
+    
+}
+
+.my_card:hover {
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.164);
+}
+
+
+.therapist_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 15vh;
+}
+
+.therapist_container_image{
+    height: 70vh;
+    width: 80vh;
+    border-radius: 15px;
+}
+
+.therapist_container_text {
+    margin-left: 0px;
+    margin-right: 50px;
+}
+
+.payment>img {
+    height: 15vh;
+    width: 80%;
+}
+
+.therapist_container {
+
+
+    align-items: center;
+    font-size: 30px;
+    margin-top: 22vh;
+
+}
+
+.therapist_container>h1 {
+
+
+    font-size: xx-large;
+
+
+}
+
+.therapist_container_img {
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.164);
+}
+
+.about_section {
+    align-items: center;
+        font-size: 20px;
+        margin-top: 22vh;
+}
+
+.questions_container {
+    font-size: 20px;
+        margin-top: 23vh;
+}
+
+.payment{
+    font-size: 20px;
+    margin-top: 22vh;
+}
+
+
+
+.nav_text {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.nav_img {
+    height: 8vh;
+}
+
+section>h1 {
+    opacity: .7;
+    background: #fefcd9;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    animation: text 3s 1;
+}
+
+@keyframes text {
+    0% {
+        color: black;
+        margin-bottom: -55px;
+    }
+
+    30% {
+        letter-spacing: 25px;
+        margin-bottom: -55px;
+    }
+
+    85% {
+        letter-spacing: 8px;
+        margin-bottom: -55px;
+    }
+}
+
+button {
+    font-weight: 400;
+}
+
+.my_card_text {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+footer {
+    height: 20vh;
+    margin-top: 10vh;
+    width: auto;
+    opacity: .5;
+}
+
+footer>h1 {
+    color: white;
+    font-size: large;
+}
+
+.my_a {
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Yellow Therapist</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg px-4 navbar-dark shadow-5-strong nav_text"> <!-- Defines a navigation bar -->
+        <a class="navbar-brand" href="index.html"><img class="nav_img" src="./assets/logo.png"
+                alt="The Yellow Therapist"></a> <!-- Defines a link to the home page with an image -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"  
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+            style="border-color: yellow;"> <!-- The button's style -->
+            <span class="navbar-toggler-icon" style="color: yellow;"></span> <!-- The button's icon -->
+        </button><!-- Defines a button that, when clicked, expands the navigation bar -->
+
+        <div class="collapse navbar-collapse align_item_right" id="navbarSupportedContent">
+            <!-- The expanded navigation bar -->
+            <ul class="navbar-nav mr-auto"> <!-- Defines a list of items -->
+                <li class="nav-item active "> <!-- Defines a list item -->
+                    <a class="nav-link yellow_color_accent mx-3 hover_black" href="#">Home</a>
+                    <!-- Defines a link to the home page -->
+                </li>
+                <li class="nav-item active ">
+                    <a class="nav-link yellow_color_accent mx-3 hover_black" href="#">About</a>
+                    <!-- Defines a link to the about page -->
+                </li>
+                <li class="nav-item active ">
+                    <a class="nav-link yellow_color_accent mx-3 hover_black" href="#">Advice</a>
+                    <!-- Defines a link to the advice page -->
+                </li>
+                <li class="nav-item active ">
+                    <a class="nav-link yellow_color_accent mx-3 hover_black" href="#">FAQ</a>
+                    <!-- Defines a link to the FAQ page -->
+                </li>
+                <li class="nav-item active ">
+                    <a class="nav-link yellow_color_accent mx-3 hover_black" href="#">Contact us</a>
+                    <!-- Defines a link to the contact us page -->
+                </li>
+                <li class="nav-item active ">
+                    <a class="nav-link yellow_color_accent mx-3 hover_black btn btn-outline-warning"
+                        href="#">Login/Register</a> <!-- Defines a button to the login/register page -->
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+
+
+    <section> <!-- A section of the webpage -->
+        <h1>What are you looking for?</h1> <!-- A level one heading -->
+        <a href="#" class="btn btn-outline-warning">
+            <h3>I need a therapist</h3>
+        </a> <!-- A link to another section on the page, with a level three heading -->
+        <span class="span_text">or,</span> <!-- A span with text -->
+        <a href="#" class="btn btn-outline-warning"> <!-- A link to another section on the page -->
+            <h3>I am a therapist</h3> <!-- A level three heading -->
+        </a> <!-- End of link -->
+    </section> <!-- End of section -->
+
+
+
+
+
+
+
+
+
+    <div class="container my_card_text"> <!-- Creates a container element to hold rows of content -->
+        <div class="row"> <!-- Creates a row element to hold columns of content -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <!-- Creates a column that is twelve units wide on small screens, six units wide on medium screens, and four units wide on large screens -->
+                <div class="card my_card my-3"> <!-- Creates a card element -->
+                    <img src="assets/individual.jpg" alt="image" class="card-img-top">
+                    <!-- Adds an image at the top of the card -->
+                    <div class="card-body"> <!-- Creates an element to hold the text content of the card -->
+                        <h5 class="card-title">Individual</h5> <!-- Adds a level five heading -->
+                        <p class="card-text">For myself</p> <!-- Adds a paragraph -->
+                        <button class="btn btn-outline-warning">Book online</button> <!-- Adds a button -->
+                    </div> <!-- End of card-body element -->
+                </div> <!-- End of card element -->
+            </div> <!-- End of column -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <!-- Creates a column that is twelve units wide on small screens, six units wide on medium screens, and four units wide on large screens -->
+                <div class="card my_card my-3"> <!-- Creates a card element -->
+                    <img src="assets/teen.jpg" alt="image" class="card-img-top">
+                    <!-- Adds an image at the top of the card -->
+                    <div class="card-body"> <!-- Creates an element to hold the text content of the card -->
+                        <h5 class="card-title">Teen</h5> <!-- Adds a level five heading -->
+                        <p class="card-text">For my child</p> <!-- Adds a paragraph -->
+                        <button class="btn btn-outline-warning">Book online</button> <!-- Adds a button -->
+                    </div> <!-- End of card-body element -->
+                </div> <!-- End of card element -->
+            </div> <!-- End of column -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <!-- Creates a column that is twelve units wide on small screens, six units wide on medium screens, and four units wide on large screens -->
+                <div class="card my_card my-3"> <!-- Creates a card element -->
+                    <img src="assets/couple.jpg" alt="image" class="card-img-top">
+                    <!-- Adds an image at the top of the card -->
+                    <div class="card-body"> <!-- Creates an element to hold the text content of the card -->
+                        <h5 class="card-title">Couple</h5> <!-- Adds a level five heading -->
+                        <p class="card-text">For me and my partner</p> <!-- Adds a paragraph -->
+                        <button class="btn btn-outline-warning">Book online</button> <!-- Adds a button -->
+                    </div> <!-- End of card-body element -->
+
+                </div> <!-- End of card element -->
+
+            </div> <!-- End of column -->
+        </div> <!-- End of row element -->
+    </div> <!-- End of container element -->
+
+
+    <div class="container therapist_container"> <!-- A div element with the class therapist_container -->
+        <div class="mb-12"> <!-- A div element within the previous div -->
+            <div class="row no-gutters"> <!-- A div element within the previous div -->
+                <div class="col-md-4"> <!-- A div element within the previous div -->
+                    <img src="assets/therapy.jpg" class="card-img therapist_container_img" alt="...">
+                    <!-- An image element -->
+                </div> <!-- End of the previous div -->
+                <div class="col-md-8 col-sm-12 col-last"> <!-- A div element within the previous div -->
+                    <div class="card-body"> <!-- A div element within the previous div -->
+                        <h1 class="card-title"> <br> Professional, licensed,and vetted therapists who you can trust</h1>
+                        <!-- A level one heading -->
+                        <p class="card-text"> <br> Tap into the country's largest network of licensed, accredited, and
+                            experienced therapists who can help you
+                            with a range
+                            of issues including depression, anxiety, relationships, trauma, grief, and more. </p>
+                        <!-- A paragraph -->
+                    </div> <!-- End of the previous div -->
+                </div> <!-- End of the previous div -->
+
+
+            </div> <!-- End of the previous div -->
+        </div> <!-- End of the previous div -->
+    </div> <!-- End of the previous div -->
+
+
+
+    <div class="container text-center about_section"> <!-- A div with class container, text-center and about_section -->
+        <h1>About us</h1> <!-- A level one heading that says about us -->
+        <p>The Yellow Therapist is an integrated platform that aspires to uplift the existing state of mental health
+            services of
+            Bangladesh. Removing as many obstacles as possible between the one who needs help and the one who can
+            provide- is
+            what
+            we are striving for. In our platform, the therapists and the ones who need the therapy can easily get in
+            touch with
+            each
+            other. At the end of the day, it's the connection that will bring positive outcomes. We are relentlessly
+            working for
+            a
+            better tomorrow where no soul suffers, where every heart is at peace.</p>
+        <!-- A paragraph with the above text -->
+    </div> <!-- End of the div -->
+
+
+    <div class="container questions_container"> <!-- A class for the container of all questions-->
+        <div class="questions"> <!-- A class for all questions -->
+            <h1 class="text-center">Frequently asked questions </h1> <!-- A level one heading -->
+            <div class="dropdown"> <!-- A dropdown class -->
+                <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    <!-- A button with classes btn, dropdown-toggle and aria attributes -->
+                    Yellow therapist reminds me of yellow journalists, why yellow?
+                    <!-- Text that appears on the button -->
+                </button> <!-- End of the button -->
+                <div class="dropdown-menu" aria-labelledby="dropdownMenu2"> <!-- A dropdown menu -->
+                    <p>As you could guess, we get that a lot. But we chose yellow because yellow is famously the
+                        happiest
+                        color,<br> yellow is the
+                        symbol of happiness. So the therapists work here are yellow therapists in the best possible
+                        way,<br> far
+                        from yellow
+                        journalists. So, no worries. <br> Let's spread happiness.</p>
+
+                </div> <!-- End of the dropdown menu -->
+            </div> <!-- End of the dropdown -->
+            <div class="dropdown"> <!-- A dropdown class -->
+                <button class="btn dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false"> <!-- A button with classes btn, dropdown-toggle and aria attributes -->
+                    This web design makes me sad, why is it so dull? Or, I don't like the design. Or, did you not pay
+                    your web
+                    designer? <!-- Text that appears on the button -->
+                </button> <!-- End of the button -->
+                <div class="dropdown-menu" aria-labelledby="dropdownMenu2"> <!-- A dropdown menu -->
+                    <p>We are really sorry that you felt that way. But to assure you, this is not our final design. <br>
+                        We tend
+                        to bring the
+                        platform to the public as fast as possible,<br> so we had no choice but to find perfection in
+                        the
+                        imperfect,<br> just for now.
+                        And we are working relentlessly to make the platform better and better. <br> Thanks for being
+                        with us.
+                    </p>
+
+                </div> <!-- End of the dropdown menu -->
+            </div> <!-- End of the dropdown -->
+            <div class="dropdown "> <!-- A dropdown class -->
+                <button class="btn dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false"> <!-- A button with classes btn, dropdown-toggle and aria attributes -->
+                    Yellow therapist reminds me of yellow journalists, why yellow?
+                    <!-- Text that appears on the button -->
+                </button> <!-- End of the button -->
+                <div class="dropdown-menu"> <!-- A dropdown menu -->
+                    <p>As you could guess, we get that a lot. But we chose yellow because yellow is famously the
+                        happiest
+                        color,<br>
+                        yellow is the
+                        symbol of happiness. So the therapists work here are yellow therapists in the best possible
+                        way,<br> far
+                        from yellow
+                        journalists. So, no worries. <br> Let's spread happiness.</p>
+
+                </div> <!-- End of the dropdown menu -->
+            </div> <!-- End of the dropdown -->
+        </div> <!-- End of the questions class -->
+    </div> <!-- End of the container class -->
+
+
+
+
+
+
+
+    <div class="payment text-center"> <!-- The start of a div element with classes "payment" and "text-center" -->
+        <h1>Payment methods</h1> <!-- A level one heading -->
+        <img src="assets/payment.png" alt=""> <!-- An image of the payment methods -->
+    </div> <!-- End of the "payment" div -->
+
+
+
+
+    <footer class="text-center"> <!-- Defines a footer div -->
+        <h1>&copy;Kazi Moazzem Hossain <br> </h1> <!-- A level one heading. -->
+        <h5><a href="#" class="my_a">Terms & Conditions</a> | <a href="#" class="my_a">Privacy policy</a> | <a href="#"
+                class="my_a">Contact Us</a></h5> <!-- A level five heading. The <a> elements link to another page -->
+    </footer> <!-- End of the footer div -->
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
